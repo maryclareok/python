@@ -2,7 +2,7 @@
  name =input('>')
  print(name)0
 while True:
-  line=raw_input('>')
+  line=input('>')
   if line=='done':
     break
     print line

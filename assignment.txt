@@ -1,0 +1,11 @@
+newfile=input("enter filename.txt ")
+f= open(newfile,"x")
+f = open(newfile, "w")
+count=0
+while count !=10:
+    new=input("enter text ")
+    f.write(new)
+    f.write("\n")
+    count +=1
+    
+f.close()

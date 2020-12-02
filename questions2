@@ -1,0 +1,5 @@
+# i=22
+# bitneg= ~i
+# logneg= not i
+# print(bitneg)
+# print(logneg)

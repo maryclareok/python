@@ -181,3 +181,10 @@
 # print("monty","python",sep="*",end="\n")
 # print(0o1234)#"0o"is used to represent octal to decimal number conversion
 # print(0x123)#for hexadecimal to decimal conversion
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.clear()
+print(thisdict)

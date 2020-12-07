@@ -286,3 +286,10 @@
 # no = 1234
 # message(no)
 # print(no)
+
+def message (what,no):
+    print(f"enter {what} number  {no}")
+message("price" ,5)
+message("tax")
+gem = int(input())
+message ("tax",gem)

@@ -4,23 +4,30 @@ user_info = "name","username","password","confirm new password"
 
 i=0
 while i < len(user_info):
-    if user_info[i] == user_info[-2]:
+    #accepts user_info details
+    if user_info[i] == "password":
         password = input(f"enter {user_info[i]} : ")
-    elif user_info[i] == user_info[-1]:
+    elif user_info[i] == "confirm new password":
         password2 = input(f"enter {user_info[i]} : ")
     else:
         info=input(f"enter{user_info[i]} : ")
         new_user_registration.update({user_info[i]:info})
     i+=1
+    t=0
 else:
-    if password == password2:
-        new_user_registration.update({"password":password}) 
-    else:
-         password =input("enter password: ")
-         password2 = input("enter confirm new password: ")
-         if  password == password2:
-             new_user_registration.update({"password":password})
-
+    #this loop is will run ten times if the password is incorect, till the password is correct
+    while t < 10:
+        if password == password2:
+            new_user_registration.update({"password":password}) 
+        else:
+            password =input("enter password: ")
+            password2 = input("enter confirm new password: ")
+            if  password == password2:
+                new_user_registration.update({"password":password})
+        t += 1
+        if t >8 :
+            print("you have one last chance")
+            continue
 print(new_user_registration)
 #storing in a general dictionary
 dicti = len(users)

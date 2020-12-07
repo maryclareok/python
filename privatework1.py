@@ -232,3 +232,57 @@
 #         hits += 1
 # print(hits)        
 
+
+
+# # User registration
+# users = {}
+# new_user = {}
+# requested_data = ["first_name", "last_name", "nick_name","password", "comfirm_password"]
+
+# for data in requested_data:
+#     if data == "password":
+#         passwd = input(f"Enter {data}: ")
+#     elif data == "comfirm_password":
+#         passwd2 = input(f"Enter {data}: ")
+#     else:
+#         info = input(f"Enter {data}: ") 
+#         new_user.update({data:info})
+# else:
+#     if passwd == passwd2:
+#         new_user.update({"password":passwd})
+
+# print(new_user)
+
+# # Storing value in bigger Dictionary
+
+# key = len(users)
+# key += 1
+# users.update({key:new_user})
+# print(users)
+
+# chioma_money = 1_500
+# listitems = {"beans":300, 
+# "rice":500,
+# "beef":750,
+# "egg":200}
+# print (listitems.keys())
+# food = input("What do you want: ")
+# for i in listitems.values():
+#     if food.lower() == listitems[i].keys():
+#         print(f"It costs {listitems[i]}NGN")
+#         ask = input("Buying? ")
+#         if ask.lower() == "yes":
+#             chioma_money = chioma_money - listitems.val
+#             print(f"ping ping!! you have {chioma_money} left in your account.")# code to enable user to select menu 
+#             #option and see the price as well as amou#nt left in thier account
+# def  message():
+#     print("enter value")
+
+# print("we start here")
+# message()
+# print("we end here")
+# def message (no):
+#     print("enter value",no)
+# no = 1234
+# message(no)
+# print(no)

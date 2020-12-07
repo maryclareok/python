@@ -16,10 +16,18 @@ while i < len(user_info):
     i+=1
     t=0
 else:
+<<<<<<< HEAD
     if password == password2:
         new_user_registration.update({"password":password}) 
     else:
         while t < 10:
+=======
+    #this loop  will run ten times if the password is incorrect, till the password is correct
+    while t < 10:
+        if password == password2:
+            new_user_registration.update({"password":password}) 
+        else:
+>>>>>>> 91b6568dd3e6969f932b44accb053ca377920d64
             password =input("enter password: ")
             password2 = input("enter confirm new password: ")
             if  password == password2:

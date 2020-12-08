@@ -15,6 +15,7 @@ while i < len(user_info):
         new_user_registration.update({user_info[i]:info})
     i+=1
     t=0
+    #will continue running till the password is correct
 else:
     if password == password2:
         new_user_registration.update({"password":password}) 

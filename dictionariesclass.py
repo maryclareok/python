@@ -118,11 +118,11 @@
 # del thisdict
 # print(thisdict) #this will cause an error because "thisdict" no longer exists.
 
-# thisdict = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964
-# }
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
 # thisdict.clear()
 # print(thisdict)
 # for x in thisdict.values():
@@ -132,31 +132,7 @@
 # for x, y in thisdict.items():
 #   print(x, y)
 
-users={}
-new_user_registration = {}
-user_info = "name","username","password","confirm new password"
-
-i=0
-while i != len(user_info):
-    if user_info[i] == user_info[-2]:
-        password = input(f"enter {user_info[i]} : ")
-    elif user_info[i] == user_info[-1]:
-        password2 = input(f"enter {user_info[i]} : ")
-    else:
-        info=input(f"enter{user_info[i]} : ")
-        new_user_registration.update({user_info[i]:info})
-    i+=1
-else:
-    if password == password2:
-        new_user_registration.update({"password":password})     
-print(new_user_registration)
-#storing in a general dictionary
-dicti = len(users)
-dicti +=1
-users.update({dicti:new_user_registration})
-print (users)
-for i in users:
-    question = input("do you want to add more data \n yes or no")
-    if question == "yes":
+for i:y in thisdict:
+    print (i:y)
        
 

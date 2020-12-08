@@ -287,9 +287,8 @@
 # message(no)
 # print(no)
 
-def message (what,no):
-    print(f"enter {what} number  {no}")
-message("price" ,5)
-message("tax")
-gem = int(input())
-message ("tax",gem)
+# def message (what,no):
+#     print(f"enter {what} number  {no}")
+# message("price" ,5)
+# gem = int(input())
+# message ("tax",gem)

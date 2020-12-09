@@ -260,19 +260,19 @@
 # users.update({key:new_user})
 # print(users)
 
-# chioma_money = 1_500
+# chioma_money = 1_500#done it works
 # listitems = {"beans":300, 
 # "rice":500,
 # "beef":750,
 # "egg":200}
 # print (listitems.keys())
 # food = input("What do you want: ")
-# for i in listitems.values():
-#     if food.lower() == listitems[i].keys():
-#         print(f"It costs {listitems[i]}NGN")
+# for i in listitems:
+#     if i == food :
+#         print(f"It costs {listitems.get(food)}NGN")
 #         ask = input("Buying? ")
 #         if ask.lower() == "yes":
-#             chioma_money = chioma_money - listitems.val
+#             chioma_money = chioma_money - listitems.get(food)
 #             print(f"ping ping!! you have {chioma_money} left in your account.")# code to enable user to select menu 
 #             #option and see the price as well as amou#nt left in thier account
 # def  message():
@@ -292,3 +292,5 @@
 # message("price" ,5)
 # gem = int(input())
 # message ("tax",gem)
+def sum(a,b,c):
+    print(f"{a},+{b},+{c} = {a+b+c}")

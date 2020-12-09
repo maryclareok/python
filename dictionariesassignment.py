@@ -3,7 +3,7 @@ users={}
 new_user_registration = {}
 user_info = "name","username","password","confirm new password"
 
-i=0
+i = 0
 while i < len(user_info):
     #accepts user_info details
     if user_info[i] == "password":
@@ -34,5 +34,17 @@ dicti +=1
 users.update({dicti:new_user_registration})
 print (users)
 # for i in users:
-#     question = input("do you want to add more data \n yes or no")
-#     if question == "yes":
+#     if i == 1:
+#         question = input("do you want to add more data \n yes or no")
+#         if question.lower() == "yes":
+#             continue
+prompt = input("enter username>>> ")
+while True:
+    if new_user_registration["username"] == prompt:
+        password = input("enter your password>>> ")
+        if  new_user_registration["password"] == password:
+            print("welcome")
+            break 
+    else:
+        print("VALUE ERROR")
+        break    

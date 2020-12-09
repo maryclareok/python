@@ -21,14 +21,26 @@
 #         continue
 #     else:
 #         print(name)
-balls = ["baseball","basketball","volleyball"]
-colors = ["red","orange","white"]
+# balls = ["baseball","basketball","volleyball"]
+# colors = ["red","orange","white"]
 
-for ball in balls:
-    for color in colors:
-        if(ball,color) ==("baseball","orange") or (ball,color) ==("baseball","red"):
-            continue
-        elif (ball,color) == ("basketball","red"):
-            continue 
-        else:
-            print(color,"==>",ball)
+# for ball in balls:
+#     for color in colors:
+#         if(ball,color) ==("baseball","orange") or (ball,color) ==("baseball","red"):
+#             continue
+#         elif (ball,color) == ("basketball","red"):
+#             continue 
+#         else:
+#             print(color,"==>",ball)
+def greet():
+    """this is a function to greet user"""
+    print("hello world") 
+def greet2(name):
+    print(f"hello{name}")
+   
+
+def cubenum(num:int)->int:
+    return num**3 
+val = cubenum(3)
+greet2("mary")      
+print(val)

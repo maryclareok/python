@@ -8,7 +8,7 @@ userlogin = {
 }
 for i in userlogin:
     if i == prompt :
-        password = input("enter your password>>>")
+        password = input("enter your password>>> ")
         if userlogin.get(prompt) == password:
             print("welcome")
             break 

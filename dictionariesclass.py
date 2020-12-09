@@ -118,11 +118,11 @@
 # del thisdict
 # print(thisdict) #this will cause an error because "thisdict" no longer exists.
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
 # thisdict.clear()
 # print(thisdict)
 # for x in thisdict.values():
@@ -132,7 +132,6 @@ thisdict = {
 # for x, y in thisdict.items():
 #   print(x, y)
 
-for i:y in thisdict:
-    print (i:y)
+
        
 

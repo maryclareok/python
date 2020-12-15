@@ -33,18 +33,14 @@ dicti = len(users)
 dicti +=1
 users.update({dicti:new_user_registration})
 print (users)
-# for i in users:
-#     if i == 1:
-#         question = input("do you want to add more data \n yes or no")
-#         if question.lower() == "yes":
-#             continue
-prompt = input("enter username>>> ")
-while True:
-    if new_user_registration["username"] == prompt:
-        password = input("enter your password>>> ")
-        if  new_user_registration["password"] == password:
-            print("welcome")
-            break 
+f = 0
+while f < 10 :
+    prompt = input("enter username>>> ")
+    password = input("enter your password>>> ")
+    if new_user_registration["username"] == prompt and new_user_registration ["password"] == password:
+        print("welcome")
+        break
     else:
-        print("VALUE ERROR")
-        break    
+        continue
+f += 1
+#the code above allows user to sign in after registering

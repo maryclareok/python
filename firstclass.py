@@ -173,7 +173,7 @@
 # print("my name ","python",end="\n ")
 # print("monty python")
 # print("my name is","python",end=" ")
-# print("monty python")
+ # print("monty python")
 # print("my","name","is","monty","python",sep=".",end="\n")#sep to seperate with with any character
 # print("my","name","is","monty","python",sep="-",end="\n")#sep to seperate with with any character
 # print("my","name","is","monty","python",sep="+",end="\n")#sep to seperate with with any character

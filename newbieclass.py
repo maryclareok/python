@@ -32,15 +32,19 @@
 #             continue 
 #         else:
 #             print(color,"==>",ball)
-def greet():
-    """this is a function to greet user"""
-    print("hello world") 
-def greet2(name):
-    print(f"hello{name}")
+# def greet():
+#     """this is a function to greet user"""
+#     print("hello world") 
+# def greet2(name):
+#     print(f"hello{name}")
    
 
-def cubenum(num:int)->int:
-    return num**3 
-val = cubenum(3)
-greet2("mary")      
-print(val)
+# def cubenum(num:int)->int:
+#     return num**3 
+# val = cubenum(3)
+# greet2("mary")      
+# print(val)
+def prompt():
+    print("enter username")
+
+

@@ -1,0 +1,1 @@
+print(new_user_registration)
